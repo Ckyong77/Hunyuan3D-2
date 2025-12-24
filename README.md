@@ -274,6 +274,40 @@ our [Blender Addon](blender_addon.py). Please follow our tutorial to install and
 
 https://github.com/user-attachments/assets/8230bfb5-32b1-4e48-91f4-a977c54a4f3e
 
+#### Installation of Blender Add-on
+Go to Edit > Preferences
+<img width="564" height="539" alt="image" src="https://github.com/user-attachments/assets/5e768512-5a68-4ea0-97f0-2dbcb9290720" />
+
+After preferences appear, select Add-ons and select the down arrow at the top right corner of the UI. 
+<img width="846" height="594" alt="image" src="https://github.com/user-attachments/assets/ec920dfd-143d-48f6-8aea-4fc92b674e91" />
+
+Click on Install from Disk
+<img width="283" height="165" alt="image" src="https://github.com/user-attachments/assets/304dbb5b-c60b-4bf3-89e1-c61ec280ed2d" />
+
+Then Navigate to the blender_addon.py file
+<img width="575" height="304" alt="image" src="https://github.com/user-attachments/assets/c8ff982f-8c4a-442b-bd46-406ff0b5f3f4" />
+
+#### Installation of Dependencies
+- Create a virutal environment
+      - python3 -m venv venv
+- Then source venv/bin/activate to start the virtual environment
+- install dependencies pip install -r requirements.txt
+
+#### Starting Blender and server.
+
+In wsl or cmd, execute the api_server.py file
+
+python3 api_server.py, this will take a few minutes
+<img width="1097" height="519" alt="image" src="https://github.com/user-attachments/assets/be393f64-a105-43e8-aa0b-d959c9686596" />
+
+In blender, start by clicking the arrow if it does not appear 
+<img width="723" height="465" alt="image" src="https://github.com/user-attachments/assets/40847098-2270-48d7-a406-04bc1b7e0fc8" />
+
+Then select Hunyuan3D-2
+<img width="836" height="487" alt="image" src="https://github.com/user-attachments/assets/432abebc-cb83-496a-be6f-9c4f289a8ad9" />
+
+After api_server.py is running, change the API URL to the correct port number. Upload image and Generate 3D model. 
+
 ### Official Site
 
 Don't forget to visit [Hunyuan3D](https://3d.hunyuan.tencent.com) for quick use, if you don't want to host yourself.
